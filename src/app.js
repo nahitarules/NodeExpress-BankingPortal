@@ -33,7 +33,7 @@ app.get('/credit', (req, res) => {
   res.render('account', { account: accounts.credit});
 });
 
-app.get('/cprofile', (req, res) => {
+app.get('/profile', (req, res) => {
   res.render('profile', { user: users[0] });
 });
 
